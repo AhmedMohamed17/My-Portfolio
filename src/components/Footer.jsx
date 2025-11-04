@@ -15,7 +15,7 @@ function Footer() {
                 aria-label="linkedin"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/ahmed-mohamed-599a64130/"
+                href="https://www.linkedin.com/in/ahmed-mohamed-642a9836b/"
               >
                 <IconBrandLinkedin width={30} height={30} />
               </a>
