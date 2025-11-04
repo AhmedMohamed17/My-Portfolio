@@ -28,8 +28,8 @@ function Contact() {
                 </span>
                 <div className="contact__info">
                   <h3>Mail</h3>
-                  <a href="mailto:ahmedmohamed7sayed@gmail.com">
-                    ahmedmohamed7sayed@gmail.com
+                  <a href="mailto:ahmedmohamed11sayed@gmail.com">
+                    ahmedmohamed11sayed@gmail.com
                   </a>
                 </div>
               </div>
