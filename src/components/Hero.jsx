@@ -45,7 +45,7 @@ function Hero() {
                     aria-label="linkedin"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/ahmed-mohamed-599a64130/"
+                    href="https://www.linkedin.com/in/ahmed-mohamed-642a9836b/"
                   >
                     <IconBrandLinkedin width={32} height={32} />
                   </a>
