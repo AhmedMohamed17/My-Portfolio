@@ -16,6 +16,15 @@ function Projects() {
             <p>Projects</p>
             <h3>Each project is a unique piece of development 🧩</h3>
             <div className="projects-grid">
+            <ProBox
+                title="Blog Site"
+                img={lego}
+                description="a MERN stack-powered blog site inspired by Lego. Immerse yourself in a world of creativity and imagination where you can explore captivating articles."
+                techno1="MERN"
+                techno2="STACK"
+                code="https://github.com/AhmedMohamed17/Blog-App"
+                demo=""
+              />
               <ProBox
                 title="Dental Lab"
                 img={grad}
@@ -43,7 +52,7 @@ function Projects() {
                 code="https://github.com/AhmedMohamed17/Twitter"
                 demo="https://fake-twitter-ten.vercel.app/"
               />
-              <ProBox
+              {/* <ProBox
                 title="TO-DO List"
                 img={todo}
                 description="Here's a simple To-Do List app written in React to help you manage your tasks."
@@ -60,18 +69,9 @@ function Projects() {
                 techno2="CSS"
                 code="https://github.com/AhmedMohamed17/Movie-App"
                 demo="https://ahmedmohamed17.github.io/Movie-App/"
-              />
+              /> */}
 
-              <ProBox
-                title="Blog Site"
-                img={lego}
-                description="a MERN stack-powered blog site inspired by Lego. Immerse yourself in a world of creativity and imagination where you can explore captivating articles.
-                (Please note that this website is still under construction)"
-                techno1="MERN"
-                techno2="STACK"
-                code="https://github.com/AhmedMohamed17/Blog-App"
-                demo=""
-              />
+            
             </div>
           </div>
         </div>
