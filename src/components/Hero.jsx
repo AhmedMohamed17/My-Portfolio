@@ -37,8 +37,7 @@ function Hero() {
                 <h1>Front-End Developer</h1>
                 <img src={Waving} alt="waving_hand" />
                 <p>
-                  Hi, I'm Ahmed Mohamed. A passionate Front-end Developer based
-                  in Cairo, Egypt. 📍
+                Hi, I'm Ahmed Mohamed, a Front-end Developer with 3+ years of experience building scalable web applications using React.js and TypeScript. I specialize in delivering production-ready solutions with strong architecture, problem-solving skills, and effective team collaboration. 📍
                 </p>
                 <span>
                   <a

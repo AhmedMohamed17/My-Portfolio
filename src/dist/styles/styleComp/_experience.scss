@@ -1,0 +1,135 @@
+@use "../global/" as *;
+
+.experience {
+  background-color: $background-color;
+  padding: 15rem 0;
+
+  @media (max-width: 1020px) {
+    padding: 8rem 0;
+  }
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 600px) {
+    text-align: center;
+  }
+
+  p {
+    color: $header-color;
+    font-size: $text-size;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: $headings-size;
+    color: $black-shade;
+    margin-bottom: 6rem;
+  }
+}
+
+.experience-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+}
+
+.experience-card {
+  background-color: $card-bg;
+  box-shadow: $card-shadow;
+  border-radius: 1.7rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+  }
+}
+
+.exp-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.exp-logo {
+  background-color: #f0f7ff;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  h4 {
+    font-size: 2rem;
+    color: $black-shade;
+    font-weight: 700;
+  }
+
+  .exp-company-info {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #555;
+
+    .company-name {
+      color: $header-color;
+      text-transform: none;
+    }
+
+    .location {
+      color: $text-color;
+    }
+  }
+
+  .date-range {
+    font-size: 1.4rem;
+    color: #8e8e8e;
+    font-weight: 500;
+  }
+}
+
+.exp-description {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-left: 0.5rem;
+
+  li {
+    font-size: 1.6rem;
+    color: $text-color;
+    font-family: $text-font;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 2rem;
+
+    &::before {
+      content: "•";
+      color: $header-color;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+  }
+}

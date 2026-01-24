@@ -29,9 +29,7 @@ function AboutMe() {
                 Front-end Development.
                 <br />
                 <br />
-                Graduated from Thebes Academy in 2021, with a degree in Computer
-                Science from the Department of Computer and Information
-                Sciences.
+                I graduated from Thebes Academy in 2021 with a Bachelor’s degree in Computer Science from the Department of Computer and Information Sciences.
                 <br />
                 <br />
                 Recipient of the{" "}

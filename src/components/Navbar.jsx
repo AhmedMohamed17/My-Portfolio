@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../dist/styles.css";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import React from "react";
+import ThemeToggle from "./ThemeToggle";
 
 function Navbar() {
   const [hamburger, setHamburger] = useState(false);
@@ -22,6 +23,10 @@ function Navbar() {
     {
       name: "About",
       link: "#about",
+    },
+    {
+      name: "Experience",
+      link: "#experience",
     },
     {
       name: "Projects",
@@ -45,6 +50,9 @@ function Navbar() {
               <a href={item.link}>{item.name}</a>
             </li>
           ))}
+          <li>
+            <ThemeToggle />
+          </li>
           <li onClick={() => hamburgerMenu()}>
             <IconMenu2 className="mobile-menu" width={30} height={30} />
           </li>
@@ -58,6 +66,9 @@ function Navbar() {
         </span>
 
         <ul>
+          <li style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
+            <ThemeToggle />
+          </li>
           {navlinks.map((item) => (
             <li key={item.name} onClick={() => hamburgerMenu()}>
               <a href={item.link}>{item.name}</a>

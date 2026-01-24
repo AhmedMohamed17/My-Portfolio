@@ -1,7 +1,7 @@
 @use "../global/" as *;
 
 .contact {
-  background-color: white;
+  background-color: $background-color;
   padding: 11rem 0;
 
   @media (max-width: 1020px) {
@@ -56,13 +56,13 @@
     }
 
     span {
-      background-color: white;
+      background-color: $card-bg;
       width: 5rem;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 5rem;
-      box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+      box-shadow: $card-shadow;
       border-radius: 50%;
       color: $header-color;
     }

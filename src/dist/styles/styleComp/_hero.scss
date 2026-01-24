@@ -74,7 +74,7 @@
   p {
     font-size: $hero-text-size;
     font-weight: 500;
-    color: #555555;
+    color: $text-color;
     font-family: $text-font;
     line-height: 1.6;
 
@@ -192,7 +192,7 @@
   p {
     margin-right: 7rem;
     padding-right: 2rem;
-    border-right: 2px solid rgb(45, 46, 50, 0.5);
+    border-right: 2px solid rgba($black-shade, 0.5);
     font-family: $text-font;
     font-weight: 600;
     color: $black-shade;
@@ -200,7 +200,7 @@
     @media (max-width: 900px) {
       margin-right: 0;
       margin-bottom: 3rem;
-      border-bottom: 2px solid rgb(45, 46, 50, 0.5);
+      border-bottom: 2px solid rgba($black-shade, 0.5);
       border-right: none;
       padding-right: 0;
       padding-bottom: 1rem;

@@ -1,0 +1,38 @@
+@use "../global/" as *;
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  border-radius: 50%;
+  color: $black-shade;
+  transition: all 0.3s ease;
+  background-color: transparent;
+
+  &:hover {
+    color: $header-color;
+    background-color: rgba($header-color, 0.1);
+    transform: scale(1.1);
+  }
+
+  svg {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:active svg {
+    transform: rotate(45deg);
+  }
+}
+
+// Add global transition for theme switching if not already in boilerplate
+html {
+  transition: background-color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
