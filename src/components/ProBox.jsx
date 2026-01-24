@@ -7,7 +7,7 @@ const ProBox = ({ title, img, description, techno1, techno2, code, demo }) => {
   return (
     <section className="mainprojects">
       <div className="maindiv-one">
-        <img src={img} />
+        <img src={img}  alt="project image"/>
       </div>
       <div className="maindiv-two">
         <h2>{title}</h2>
@@ -21,13 +21,13 @@ const ProBox = ({ title, img, description, techno1, techno2, code, demo }) => {
           <span className="span-one">
             Code
             <a href={code}>
-              <img src={github} />
+              <img src={github} alt="github icon"/>
             </a>
           </span>
           <span className="span-two">
             Live Demo
             <a href={demo}>
-              <img src={imagedemo} />
+              <img src={imagedemo} alt="demo icon"/>
             </a>
           </span>
         </div>
