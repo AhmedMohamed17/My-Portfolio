@@ -580,7 +580,7 @@
 
   .experience {
     background-color: var(--bg-color);
-    padding: 0 0 10rem 0;
+    padding:10rem;
   }
   @media (max-width: 1020px) {
     .experience {
@@ -746,6 +746,16 @@
     height: auto;
     gap: 5rem;
   }
+
+.project-card {
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: var(--card-bg);
+  box-shadow: var(--card-shadow);
+}
+
   .projects-grid .pro {
     display: flex;
     background-color: var(--bg-color);
@@ -1050,6 +1060,15 @@
     margin-right: 0.3rem;
   
   }
+  .maindiv-one img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .maindiv-one img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
   .maindiv-two{
     /* width: 45%; */
     padding: 1.7rem;
@@ -1104,6 +1123,20 @@ font-size: 1.7rem;
    font-size: 1.7rem;
    font-weight: 900;
 
+  }
+  .button {
+    display: inline-block;
+    padding: 5px 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    font-weight: 900;
+    transition: all 0.3s ease;
+  }
+  .button:hover {
+    background-color: #414850;
+    color: white;
   }
   .span-one{
     margin-right: 1rem;

@@ -20,10 +20,10 @@ function Navbar() {
       name: "Home",
       link: "#home",
     },
-    {
-      name: "About",
-      link: "#about",
-    },
+    // {
+    //   name: "About",
+    //   link: "#about",
+    // },
     {
       name: "Experience",
       link: "#experience",

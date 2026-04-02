@@ -12,7 +12,7 @@ function Home() {
     <React.Fragment>
       <Navbar />
       <Hero />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <Experience />
       <Projects />
       <Contact />

@@ -1,5 +1,8 @@
 import React from "react";
-import { IconBriefcase } from "@tabler/icons-react";
+
+import company1 from "../images/wakeb.png";
+import company2 from "../images/gamifier.jpg";
+import company3 from "../images/digitopia.webp";
 
 function Experience() {
   const experiences = [
@@ -8,6 +11,7 @@ function Experience() {
       location: "Cairo, Egypt",
       role: "Frontend Developer",
       date: "Feb 2024 – Present",
+      logo: company1,
       description: [
         "Handled major performance and optimization challenges caused by large data flows and heavy server responses by designing structured and efficient solutions.",
         "Improved overall application performance by optimizing component architecture, enhancing state management, and reducing unnecessary re-renders, achieving approximately 30% performance improvement.",
@@ -20,6 +24,7 @@ function Experience() {
       location: "Riyadh, Saudi Arabia (Remote)",
       role: "Frontend Developer Intern",
       date: "Nov 2023 – Feb 2024",
+      logo: company2,
       description: [
         "Collaborated closely with the UX team to implement 9 responsive UI features, contributing to a 21% increase in monthly active users.",
         "Actively participated in agile development processes, successfully achieving 84% of sprint goals and improving overall team productivity.",
@@ -31,6 +36,7 @@ function Experience() {
       location: "Casablanca, Morocco (Remote)",
       role: "Frontend Developer",
       date: "Feb 2020 – Aug 2021",
+      logo: company3,
       description: [
         "Maintained and developed new features for the frontend of the Aly platform.",
         "Improved critical business logic, including optimizing search functionality based on user-selected distance.",
@@ -51,7 +57,7 @@ function Experience() {
                 <div key={index} className="experience-card">
                   <div className="exp-header">
                     <div className="exp-logo">
-                      <IconBriefcase size={30} color="#147efb" />
+                      <img src={exp.logo} alt={exp.company + " logo"} style={{ width: 40, height: 40, objectFit: "contain" }} />
                     </div>
                     <div className="exp-title-box">
                       <h4>{exp.role}</h4>
