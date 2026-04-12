@@ -139,7 +139,7 @@
     list-style: none;
   }
   .mobile-nav ul a {
-    color: black;
+    color: var(--black-shade);
     text-decoration: none;
     font-weight: 500;
   }
