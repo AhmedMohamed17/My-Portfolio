@@ -13,10 +13,10 @@ function Experience() {
       date: "Feb 2024 – Present",
       logo: company1,
       description: [
-        "Handled major performance and optimization challenges caused by large data flows and heavy server responses by designing structured and efficient solutions.",
-        "Improved overall application performance by optimizing component architecture, enhancing state management, and reducing unnecessary re-renders, achieving approximately 30% performance improvement.",
-        "Simplified and optimized UI components to ensure faster rendering and smoother user interactions, leading to a 20% increase in application responsiveness.",
-        "Enhanced handling of large datasets through optimized API calls, caching strategies, and improved data flow structure to ensure scalability and stability.",
+        "Transform Figma designs into responsive and visually appealing user interfaces using Tailwind CSS.",
+        "Develop and maintain web applications using React, specifically for marketing campaigns, ensuring they are optimized for performance and user engagement.",
+        "Optimize website structure, metadata, and content to improve search engine performance.",
+        "Write clean, maintainable, and scalable code following industry standards and best practices.",
       ],
     },
     {
@@ -26,9 +26,9 @@ function Experience() {
       date: "Nov 2023 – Feb 2024",
       logo: company2,
       description: [
-        "Collaborated closely with the UX team to implement 9 responsive UI features, contributing to a 21% increase in monthly active users.",
-        "Actively participated in agile development processes, successfully achieving 84% of sprint goals and improving overall team productivity.",
-        "Assisted senior developers in ideating and implementing a new website feature that increased user sign-ups by 32% within the first three months after launch.",
+        "Built and maintained responsive, cross-browser-compatible web interfaces using HTML5, CSS3, JavaScript (ES6+), React.js, and Tailwind CSS.",
+        "Engineered reusable, modular UI components following component-driven architecture, improving codebase consistency and reducing duplication.",
+        "Participated in structured code reviews with senior developers, applying clean code standards on production projects.",
       ],
     },
     {
@@ -40,7 +40,7 @@ function Experience() {
       description: [
         "Maintained and developed new features for the frontend of the Aly platform.",
         "Improved critical business logic, including optimizing search functionality based on user-selected distance.",
-        "Worked extensively with Next.js and GraphQL APIs to ensure smooth integration with backend services.",
+        "Wrote clean HTML and CSS to convert product designs into responsive web pages.",
       ],
     },
   ];
