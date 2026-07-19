@@ -13,10 +13,10 @@ function Experience() {
       date: "Feb 2024 – Present",
       logo: company1,
       description: [
-        "Transform Figma designs into responsive and visually appealing user interfaces using Tailwind CSS.",
         "Develop and maintain web applications using React, specifically for marketing campaigns, ensuring they are optimized for performance and user engagement.",
         "Optimize website structure, metadata, and content to improve search engine performance.",
         "Write clean, maintainable, and scalable code following industry standards and best practices.",
+        "Transform Figma designs into responsive and visually appealing user interfaces using Tailwind CSS.",
       ],
     },
     {
